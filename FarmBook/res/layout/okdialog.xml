@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+	
+    <TextView 
+        android:id="@+id/okdialog_tv"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/okdialog_ok"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_green" 
+        android:text="OK"/>
+
+</LinearLayout>

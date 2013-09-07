@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageButton
+            android:id="@+id/create_pause"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/create_image_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/create_pause"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip" />
+
+        <EditText
+            android:id="@+id/create_text"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/create_image_preview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:background="@android:drawable/editbox_background" />
+
+        <ImageButton
+            android:id="@+id/create_image"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/create_text"
+            android:layout_marginLeft="30dip"
+            android:background="@android:color/transparent"
+            android:src="@drawable/upload_image" />
+
+        <ImageButton
+            android:id="@+id/create_audio"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/create_image"
+            android:layout_marginRight="30dip"
+            android:background="@android:color/transparent"
+            android:src="@drawable/upload_audio" />
+
+        <Button
+            android:id="@+id/create_send"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/create_image"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/green"
+            android:text="Send" />
+    </RelativeLayout>
+
+</ScrollView>

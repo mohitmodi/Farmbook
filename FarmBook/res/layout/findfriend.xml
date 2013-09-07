@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/findfriend_relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="10dip"
+    android:background="@drawable/background2"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/findfriend_pause"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/findfriend_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:text="Phone Number:"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/findfriend_number"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/findfriend_number_label"
+        android:layout_below="@id/findfriend_number_label"
+        android:layout_marginTop="10dip"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/findfriend_ok"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/findfriend_number"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/border_green"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/findfriend_cancel"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/findfriend_ok"
+        android:layout_marginLeft="20dip"
+        android:layout_toRightOf="@id/findfriend_ok"
+        android:background="@drawable/border_red"
+        android:text="Cancel" />
+
+</RelativeLayout>

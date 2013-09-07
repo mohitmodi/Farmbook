@@ -1,0 +1,6 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friendbutton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/profile_man"
+    android:gravity="left|center_vertical" />
